@@ -26,11 +26,11 @@ var NewTraining = React.createClass({
             <form onSubmit={this.handleSubmit}>
                 <div>
                     <label>Date</label>
-                    <input type="datetime-local" id="newDate" defaultValue="2014-01-02T11:30:00" ref="newDate" className="form-control" />
+                    <input type="datetime-local" id="newDate" defaultValue="2014-09-03T11:30:00" ref="newDate" className="form-control" />
                 </div>
                 <div>
                     <label>Distance</label>
-                    <input ref="newDistance" type="number" defaultValue="1000" /> meters
+                    <input ref="newDistance" type="number" defaultValue="10000" /> meters
                 </div>
                 <div>
                     <label>Time</label>
