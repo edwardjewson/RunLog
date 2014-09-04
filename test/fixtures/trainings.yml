@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2014-09-03 16:38:26
+  distance: 1
+  time: 1.5
+  comment: MyText
+
+two:
+  date: 2014-09-03 16:38:26
+  distance: 1
+  time: 1.5
+  comment: MyText
