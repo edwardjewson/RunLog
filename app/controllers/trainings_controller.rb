@@ -5,6 +5,10 @@ class TrainingsController < ApplicationController
   # GET /trainings.json
   def index
     @trainings = Training.all
+    respond_to do |format|
+      format.html
+      format.json {render :json => @trainings }
+    end
   end
 
   # GET /trainings/1

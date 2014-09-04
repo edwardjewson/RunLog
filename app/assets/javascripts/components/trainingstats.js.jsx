@@ -18,7 +18,7 @@ var TrainingStats = React.createClass({
             return d1 - d2;
         });
         milliDiff = trainingDates[trainingDates.length - 1] - trainingDates[0];
-        numberOfWeeks = milliDiff / (1000 * 3600 * 24 * 7);
+        numberOfWeeks = Math.max(1, milliDiff / (1000 * 3600 * 24 * 7));
 
         return trainingDates.length / numberOfWeeks;
     },

@@ -30,6 +30,7 @@ var App = React.createClass({
                 trainings: data,
                 currentPage: Page.LIST
             });
+            history.replaceState(null, null, Page.LIST);
             if (completion) {
                 completion();
             }
